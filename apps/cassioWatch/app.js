@@ -76,14 +76,16 @@ function drawBattery() {
 
 function drawRocket() {
   let Rocket = getRocketSequences();
-  g.clearRect(5, 62, 63, 115);
-  g.setColor(0, 255, 255);
-  g.drawRect(5, 62, 63, 115);
-  g.fillRect(5, 62, 63, 115);
-  g.drawImage(Rocket[rocketSequence], 5, 65, { scale: 0.7 });
-  g.setColor(0, 0, 0);
-  rocketSequence = rocketSequence + 1;
-  if(rocketSequence > 8) rocketSequence = 1;
+//  g.clearRect(5, 62, 63, 115);
+
+  //g.setColor(0, 255, 255);
+ // g.drawRect(5, 62, 63, 115);
+ // g.fillRect(5, 62, 63, 115);
+ // g.drawImage(Rocket[rocketSequence], 5, 65, { scale: 0.7 });
+ // g.setColor(0, 0, 0);
+ // rocketSequence = rocketSequence + 1;
+  //if(rocketSequence > 8) rocketSequence = 1;
+g.drawString("LIA",10,60);
 }
 
 function getTemperature(){
