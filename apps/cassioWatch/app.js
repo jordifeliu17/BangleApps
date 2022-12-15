@@ -94,7 +94,7 @@ function getTemperature(){
     var weather = weatherJson.weather;
     return Math.round(weather.temp-273.15);
   } catch(ex) {
-    print(ex)
+    print(ex);
     return "?"
   }
 }
