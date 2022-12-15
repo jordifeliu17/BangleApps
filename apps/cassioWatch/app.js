@@ -115,15 +115,15 @@ function draw() {
   let background = getBackgroundImage();
   g.drawImage(background, 0, 0, { scale: 1 });
   g.setColor(0, 0, 0);
-  g.setFont("6x12");
+  //g.setFont("6x12");
   //g.drawString("Launching Process", 30, 20);
   g.setFont("8x12");
   //g.drawString("ACTIVATE", 40, 35);
    g.drawString("LIA F. M.", 35, 35);
    g.drawString("BON DIA",10,60);
-   g.drawString("LIA ",10,60);
+   g.drawString("LIA ",10,80);
   g.setFontAlign(0,-1);
-  g.setFont("8x12", 2);
+ // g.setFont("8x12", 2);
   g.drawString(getTemperature(), 155, 132);
   g.drawString(Math.round(Bangle.getHealthStatus("last").bpm), 109, 98);
   g.drawString(getSteps(), 158, 98);
