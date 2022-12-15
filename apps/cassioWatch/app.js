@@ -117,7 +117,7 @@ function draw() {
   g.setColor(0, 0, 0);
   //g.setFont("6x12");
   //g.drawString("Launching Process", 30, 20);
-  g.setFont("8x12");
+  g.setFont("8x12",2);
   //g.drawString("ACTIVATE", 40, 35);
    g.drawString("LIA F. M.", 35, 35);
    g.drawString("BON DIA",10,60);
