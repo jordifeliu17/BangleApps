@@ -119,9 +119,9 @@ function draw() {
   //g.drawString("Launching Process", 30, 20);
   g.setFont("8x12",2);
   //g.drawString("ACTIVATE", 40, 35);
-   g.drawString("LIA F. M.", 35, 35);
-   g.drawString("BON DIA",10,60);
-   g.drawString("LIA ",10,80);
+   g.drawString("LIA F. M.", 3, 25);
+   g.drawString("BON DIA",3,60);
+   g.drawString("LIA ",3,80);
   g.setFontAlign(0,-1);
  // g.setFont("8x12", 2);
   g.drawString(getTemperature(), 155, 132);
