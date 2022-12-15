@@ -113,7 +113,7 @@ function draw() {
   g.setColor(0, 255, 255);
   g.fillRect(0, 0, g.getWidth(), g.getHeight());
   let background = getBackgroundImage();
-  g.drawImage(background, 0, 0, { scale: 10 });
+  g.drawImage(background, 0, 0, { scale: 1 });
   g.setColor(0, 0, 0);
   g.setFont("6x12");
   g.drawString("Launching Process", 30, 20);
